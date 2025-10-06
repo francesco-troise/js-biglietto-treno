@@ -43,6 +43,16 @@ if(eta <= 18){
 
 }
 
+/*RIEPILOGO A SCHERMO DEL BIGLIETTO*/
+
+alert(`Nome: ${full_name}
+Anni: ${eta}
+Lughezza tratta: ${lunghezza_tratta}km 
+Prezzo pieno: ${prezzo_pieno}
+Prezzo scontato: ${prezzo_scontato}
+Inserire carta o introdurre denaro per procedere al pagamento
+Buon viaggio!`)
+//utilizzo -alert e il template literal per mostrare a schermo un riepilogo del biglietto
 
 
 
