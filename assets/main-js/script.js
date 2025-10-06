@@ -22,7 +22,7 @@ let lunghezza_tratta = Number(prompt(`Inserire la lunghezza, in km, della tratta
 const prezzo_km = 0.21
 //dichiaro ed inizilizzo la constante(-prezzo_km è il prezzo al km della tratta)
 
-let prezzo_pieno = prezzo_km * lunghezza_tratta
+let prezzo_pieno = (prezzo_km * lunghezza_tratta).toFixed(2)
 //calcolo il prezzo pieno della tratta, lo userò poi con eventuali sconti
 
 
