@@ -34,12 +34,12 @@ let prezzo_scontato
 if(eta <= 18){
 //controllo se l'utente è minorenne, applicando nel caso lo sconto
 
-    prezzo_scontato = prezzo_pieno * (1 - 0.2)  
+    prezzo_scontato = (prezzo_pieno * (1 - 0.2)).toFixed(2)  
 
 } else if(eta >= 70){
 //controntrollo se l'untente è over 70(compreso), applicando nel caso lo sconto
 
-    prezzo_scontato = prezzo_pieno * (1 - 0.4)
+    prezzo_scontato = (prezzo_pieno * (1 - 0.4)).toFixed(2)
 
 }
 
